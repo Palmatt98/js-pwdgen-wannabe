@@ -18,8 +18,11 @@ let birthAge = currentYear - userAge;
 console.log(birthAge);
 
 favoriteColor = prompt("qual è il tuo colore preferito")
-alert(`complimenti, molto bello  ${favoriteCOlor}`)
+alert(`complimenti, molto bello  ${favoriteColor}`)
 
 document.getElementById ("result")
-.innerHTML = userName+userColor+userAge;
+.innerHTML = userName + favoriteColor + userSurname;
+
+// document.getElementById("demo").innerHTML =
+// Math.floor(Math.random() * 99);
 
